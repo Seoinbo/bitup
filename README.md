@@ -1,2 +1,2 @@
 # Bitup
-a tool to help upbit trade.
+A tool to help upbit trade.
