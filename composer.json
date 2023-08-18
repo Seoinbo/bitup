@@ -1,0 +1,19 @@
+{
+    "name": "seo4234/bitup",
+    "description": "A tool to help tarde.",
+    "type": "project",
+    "require": {
+        "laravel/octane": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "seo4234",
+            "email": "seo4234@example.com"
+        }
+    ]
+}
