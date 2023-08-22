@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "octane:start": "php artisan octane:start --server=swoole --host=0.0.0.0 --port=80",
+        "octane:start": "php artisan octane:start --server=swoole --host=127.0.0.1 --port=8000",
         "vite:devel": "vite --port 8001",
         "vite:build": "vite build"
     },
