@@ -1,0 +1,46 @@
+#sidebar {
+    @apply fixed right-0 md:left-0 bg-gray-100;
+    @apply flex items-center w-10 md:w-1/3 h-screen;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#sidebar h1 {
+    @apply font-bold text-xl border-b border-gray-300 pt-4 pb-4;
+    @apply hidden md:block;
+    margin-bottom: 10px;
+}
+
+#sidebar .nav {
+    @apply md:absolute top-0 right-0 w-full;
+    @apply p-1 md:p-7 ;
+    max-width: 268px;
+}
+
+#sidebar .group {
+    @apply pt-0 md:pt-1;
+}
+#sidebar .item {
+    @apply flex w-full relative;
+}
+#sidebar .item h2 {
+    @apply grow leading-6 text-sm font-bold;
+    @apply hidden md:block;
+    color: rgba(60, 60, 67);
+    padding: 4px 0;
+    transition: color .25s;
+}
+#sidebar .item p {
+    color: rgb(60 60 67 / 85%);
+    padding: 4px 0;
+    transition: color .25s;
+}
+#sidebar .item p.text {
+    @apply grow leading-5 font-medium;
+    @apply hidden md:block;
+    
+}
+#sidebar .item p.head-text {
+    @apply grow leading-5 font-medium flex justify-center items-center w-8 h-12;
+    @apply md:hidden;
+    @apply border-t border-gray-200;
+}
