@@ -7,16 +7,18 @@
         @include('layout.partials.head')
     </head>
     <body>
-        <div id="wrapper" class="bg-red-900">
-            @include('layout.partials.navbar')
-            @include('layout.partials.sidebar')
-            <div class="content-page">
-                <div class="content">
-                    <div class="container-fluid">
-                        @yield('content')
+        <div id="app">
+            <div id="wrapper" class="">
+                <!-- @include('layout.partials.navbar') -->
+                @include('layout.partials.sidebar')
+                <div class="content-layout">
+                    <div class="content">
+                        <div class="container-fluid">
+                            @yield('content')
+                        </div>
                     </div>
+                    <!-- @include('layout.partials.footer') -->
                 </div>
-                @include('layout.partials.footer')
             </div>
         </div>
         @include('layout.partials.scripts')
